@@ -5,7 +5,7 @@ on: [push]
 jobs:
   kineticbuild:
     runs-on: ubuntu-latest
-    container: ubuntu:bionic
+    container: ros:kinetic-robot
     steps:
     - uses: actions/checkout@v1
       with:
