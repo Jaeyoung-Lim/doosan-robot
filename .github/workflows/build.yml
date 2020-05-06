@@ -15,7 +15,7 @@ jobs:
       working-directory: 
       run: |
         apt update
-        apt install -y python3-wstool
+        apt install -y python3-wstool python3-catkin-tools
         mkdir -p $HOME/catkin_ws/src;
         cd $HOME/catkin_ws
         catkin init
